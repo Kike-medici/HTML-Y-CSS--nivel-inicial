@@ -1,0 +1,50 @@
+h1 
+{
+    color:red;
+    font-size:35pt;
+}
+
+/*estoy probando colores y fuentes*/
+p
+{
+/*color:blue;*/  /*ACA LO PUSE ASI PARA VER COMO FUNCIONA EL SELECTOR * */
+font-size: 20pt;
+/*color:green;*/ /*aca lo q va a pasar es que este color va a suplantar al azul xq no puede haber mas de 1 */
+}
+
+/* ACA SE USA LOS SELECTORES ID , con esto lo q se hace es cambiar de color al parrafo q yo quiero indirectamente q otro parrafo tenga otro color*/
+#primer-noticia
+{
+color:green;
+font-size:35pt;
+
+}
+#segunda-noticia
+{
+/*color:chartreuse;*/
+font-size: 28pt;
+
+}
+
+/* ACA SE USA LOS SELECTORES DE CLASES , con esto lo q se hace es cambiar de color al parrafo q yo quiero indirectamente q otro parrafo tenga otro color*/
+.Encabezado
+{
+    color:yellow;
+    text-transform: uppercase;/*PARA Q SEA TODO MAYUSCULAS*/
+
+}
+
+/* ACA SE USA LOS SELECTOR UNIVERSAL , este pone todo del color q digamos excepto si tienen SELECTORES*/
+*{
+    color:black;
+}
+
+*.warning
+{
+    color:darkorange;
+    font-size: 50pt;
+}
+.autor, .fecha, .lugar, h1, #segunda-noticia/*OTRA FORMA DE PONER TODO JUNTO SI QUIERO ALGO IGUAL PARA VARIAS COSAS*/
+{
+    text-decoration: underline;
+}

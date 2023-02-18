@@ -1,0 +1,13 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap'); /* IMPORTAMOS UNA HOJA DE FUENTES DIRECTAMENTE DE INTERNET*/
+
+html /* con esto de poner html lo q hace q todo el texto este escrito de la misma forma*/ {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /* diferentes fuentes de letras*/
+
+  /*font-family:'Source Sans Pro', sans-serif;
+font-style:italic;*/
+
+  font-size: 35px; /* Tamaño de la fuente*/
+  font-weight: 200; /* muestra el grosor de la fuente*/
+}
