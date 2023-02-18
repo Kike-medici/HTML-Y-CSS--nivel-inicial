@@ -1,0 +1,15 @@
+#elemento-1 {
+  color: red;
+  /*font-size: 2rem;  PORDIA HABER SIDO ASI TMB*/
+  
+}
+
+ul li#elemento-1  /* ACA ENCADENE LAS LISTAS PARA Q EL PRIMERO SE MUESTRE MAS GRANDE*/
+{
+  font-size: 2rem;
+}
+
+ol li#elemento-1 /* ACA ENCADENE LAS LISTAS PARA Q EL PRIMERO SE MUESTRE MAS GRANDE*/
+{
+  font-size: 2rem;
+}
